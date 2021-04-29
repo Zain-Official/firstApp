@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ArmStrong\**" />
+    <Compile Remove="Factor\**" />
+    <Compile Remove="FUNCTIONS\**" />
+    <Compile Remove="LISTS\**" />
+    <Compile Remove="Primary\**" />
+    <Compile Remove="Stackk\**" />
+    <EmbeddedResource Remove="ArmStrong\**" />
+    <EmbeddedResource Remove="Factor\**" />
+    <EmbeddedResource Remove="FUNCTIONS\**" />
+    <EmbeddedResource Remove="LISTS\**" />
+    <EmbeddedResource Remove="Primary\**" />
+    <EmbeddedResource Remove="Stackk\**" />
+    <None Remove="ArmStrong\**" />
+    <None Remove="Factor\**" />
+    <None Remove="FUNCTIONS\**" />
+    <None Remove="LISTS\**" />
+    <None Remove="Primary\**" />
+    <None Remove="Stackk\**" />
+  </ItemGroup>
+
+</Project>
